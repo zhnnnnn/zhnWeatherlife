@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "WLmainViewController.h"
+#import "RealReachability.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+
+    [GLobalRealReachability startNotifier];
+    
+    UIWindow * keyWindow = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window = keyWindow;
+    WLmainViewController * mainViewController = [[WLmainViewController alloc]init];
+    keyWindow.rootViewController = mainViewController;
+
+    [keyWindow makeKeyAndVisible];
     return YES;
 }
 
@@ -31,11 +42,14 @@
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    
+    // 从后台进入到前台的通知
+    [[NSNotificationCenter defaultCenter]postNotificationName:KapplicationBecomActiveNotification object:nil];
+    
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {

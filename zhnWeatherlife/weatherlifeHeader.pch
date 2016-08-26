@@ -1,0 +1,34 @@
+//
+//  weatherlifeHeader.pch
+//  zhnWeatherlife
+//
+//  Created by zhn on 16/8/4.
+//  Copyright © 2016年 zhn. All rights reserved.
+//
+
+#define KWLapiToken @"Kjzto8pce6P3obpW"
+#define KlocationAkToken @"Rd8l3hUfneA4y9YAgUhGwrzP6rGk3GH5"
+
+#define KforecastIoToken @"4d61ddd8aa44d47c3a1ea1ad006f62e1"
+
+#import "WLbaseNetWork.h"
+#import "Masonry.h"
+#import "UIFont+WLfont.h"
+#import "UIView+WLframe.h"
+#import "WLbaseNetWork+netWork.h"
+#import "YYModel.h"
+#import "RealReachability.h"
+
+#define KscreenHeight [UIScreen mainScreen].bounds.size.height
+#define KscreenWidth [UIScreen mainScreen].bounds.size.width
+
+#define KdayColor [UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1]
+#define KnightColor [UIColor colorWithRed:11/255.0 green:11/255.0 blue:11/255.0 alpha:1]
+
+#define KdayValue @"day"
+#define KnightValue @"night"
+
+#define KdayOrNightNotication @"weatherLifeDayOrNightNotication"
+#define KapplicationBecomActiveNotification @"KapplicationBecomActiveNotification"
+
+#define KdayHightLightColor [UIColor colorWithRed:224/255.0 green:208/255.0 blue:48/255.0 alpha:1]

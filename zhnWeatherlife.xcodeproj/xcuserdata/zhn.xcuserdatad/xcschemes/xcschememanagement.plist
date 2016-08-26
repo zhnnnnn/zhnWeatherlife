@@ -4,14 +4,57 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>WEATHER&amp;LIFE.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>Weather&amp;Life.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>WeatherLife.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>weather&amp;life.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>zhnWeatherlife.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>CD167A591D5B809100488071</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CD167A6D1D5B811100488071</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CD167A811D5B820F00488071</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>CD519EA11D53876800968CE3</key>
 		<dict>
 			<key>primary</key>
@@ -23,6 +66,16 @@
 			<true/>
 		</dict>
 		<key>CD519EC51D53876800968CE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CDD7648C1D5B7F21001A2BF8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CDE259951D5B8530003D38F3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
